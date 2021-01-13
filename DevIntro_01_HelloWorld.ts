@@ -12,7 +12,6 @@
 
 /* 
    Urmează un apel (o invocare) a unei funcții (mai precis, a unei "metode" - detalii mai târziu)
-   predefinite, care afișează un mesaj folosind LED-urile 
-   de la MicroBit:
+   predefinite, care afișează un mesaj folosind LED-urile de la MicroBit:
  */ 
 basic.showString("SALUT!");
