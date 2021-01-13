@@ -1,17 +1,22 @@
-// Hello World! Salutare Lume! :)
+function DevIntro_01_HelloWorld()
+{
+    // Hello World! Salutare Lume! :)
 
-// Acesta este un comentariu.
+    // Acesta este un comentariu.
 
-/* Acesta este tot un comentariu, 
-   scris pe
-   mai multe 
-   linii. */
+    /* Acesta este tot un comentariu, 
+    scris pe
+    mai multe 
+    linii. */
 
-// Comentariile au rol informativ.
-// Ele nu influențează în vreun fel programul.
+    // Comentariile au rol informativ.
+    // Ele nu influențează în vreun fel programul.
 
-/* 
-   Urmează un apel (o invocare) a unei funcții (mai precis, a unei "metode" - detalii mai târziu)
-   predefinite, care afișează un mesaj folosind LED-urile de la MicroBit:
- */ 
-basic.showString("SALUT!");
+    /* 
+    Urmează un apel (o invocare) a unei funcții (mai precis, a unei "metode" - detalii mai târziu)
+    predefinite, care afișează un mesaj folosind LED-urile de la MicroBit:
+    */ 
+    basic.showString("SALUT!");
+
+    // Mergi în main.ts și "de-comentează" linia unde scrie "DevIntro_01_HelloWorld();"
+}
