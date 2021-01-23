@@ -52,4 +52,9 @@ function DevIntro_02_ElementeDeBaza()
 
     // Vom avea o eroare dacă încercăm să introducem o valoare numerică:
     // y = 7;
+
+    // Recomandarea e să precizăm tipul de date al variabilelor 
+    // (de altfel, în alte limbaje de programare e obligatoriu).
+
+    
 }
