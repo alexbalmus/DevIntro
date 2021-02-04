@@ -12,11 +12,15 @@ function DevIntro_01_HelloWorld()
     // Comentariile au rol informativ.
     // Ele nu influențează în vreun fel programul.
 
+    // Învățăm programare folosind limbajul Static TypeScript 
+    // (un dialect al limbajului TypeScript, acesta din urmă fiind o extensia a JavaScript).
+    // Detalii limbaj: https://makecode.com/language 
+
     /* 
     Urmează un apel (o invocare) a unei funcții (mai precis, a unei "metode" - detalii mai târziu)
     predefinite, care afișează un mesaj folosind LED-urile de la MicroBit:
     */ 
     basic.showString("SALUT!");
 
-    // Mergi în main.ts și "de-comentează" linia unde scrie "DevIntro_01_HelloWorld();"
+    // Pentru rulare mergem în main.ts și "de-comentăm" linia unde scrie "DevIntro_01_HelloWorld();"
 }

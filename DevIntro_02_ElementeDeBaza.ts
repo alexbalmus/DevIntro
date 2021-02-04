@@ -1,5 +1,7 @@
 function DevIntro_02_ElementeDeBaza()
 {
+    // Pentru rulare mergem în main.ts și "de-comentăm" linia unde scrie "DevIntro_02_ElementeDeBaza();"
+
     // Afișare mesaj (șir de caractere):
     basic.showString("MICRO:BIT");
 
@@ -53,8 +55,28 @@ function DevIntro_02_ElementeDeBaza()
     // Vom avea o eroare dacă încercăm să introducem o valoare numerică:
     // y = 7;
 
-    // Recomandarea e să precizăm tipul de date al variabilelor 
-    // (de altfel, în alte limbaje de programare e obligatoriu).
+    // Recomandarea (având în vedere că trebuie să fim obișnuiți și cu cerințele altor limbaje de programare 
+    // este să precizăm tipul de date al variabilelor.
 
     
+    // Tipuri de date în Static TypeScript:
+    
 }
+
+// TODO: verificare supraîncărcare a funcțiilor (oficial nesuportată)
+class TestClass {
+    someMethod(stringParameter: string): void;
+    someMethod(numberParameter: number, stringParameter: string): void;
+
+    someMethod(stringOrNumberParameter: any, stringParameter?: string): void {
+        if (stringOrNumberParameter && typeof stringOrNumberParameter == "number")
+            console.log("Variant #2: numberParameter = " + stringOrNumberParameter + ", stringParameter = " + stringParameter);
+        else
+            console.log("Variant #1: stringParameter = " + stringOrNumberParameter);
+    }
+}
+
+let inst = new TestClass();
+
+inst.someMethod("bla");
+inst.someMethod(5, "blu");
